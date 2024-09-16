@@ -1,5 +1,10 @@
 # ti-mspm0-car
+
+[English Version](README_EN.md)
+
 基于德州仪器的 MSPM0L1306 的简易小车代码
+
+[2024电赛 H 题工程](https://github.com/sfxfs/ti-cup-2024-h)
 
 *注：本项目代码写于 2023 年暑假，使用请注意 M0 SDK 相关 API 的更新*
 
