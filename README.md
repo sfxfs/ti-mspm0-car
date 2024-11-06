@@ -1,22 +1,22 @@
 # ti-mspm0-car
 
-[English Version](README_EN.md)
+English | [简体中文](README_CN.md)
 
-基于德州仪器的 MSPM0L1306 的简易小车代码
+Based on the Texas Instruments MSPM0L1306, here is a simple car code project.
 
-[2024电赛 H 题工程](https://github.com/sfxfs/ti-cup-2024-h)
+[2024 Electrical Competition Problem H Project](https://github.com/sfxfs/ti-cup-2024-h)
 
-*注：本项目代码写于 2023 年暑假，使用请注意 M0 SDK 相关 API 的更新*
+*Note: This project was written during the summer of 2023. Please be aware of any updates to the M0 SDK related APIs when using.*
 
-源代码位于 `src` 文件夹，实现了以下功能：
+The source code is located in the `src` folder and includes the following functionalities:
 
-- 电机驱动（motor）
-- 编码器驱动（encoder）
-- I2C 应用层函数（i2c_app）
-- JY901 姿态传感器读取（jy901）
-- SSD1306 屏幕驱动（OLED）
-- 简易 PID 速度控制（pid）
-- 串口 printf 打印（uart_printf）
-- 延时函数以及获取运行时间的函数（time）
+- Motor driver (motor)
+- Encoder driver (encoder)
+- I2C application layer functions (i2c_app)
+- Reading data from JY901 attitude sensor (jy901)
+- SSD1306 screen driver (OLED)
+- Simple PID speed control (pid)
+- Serial printf function (uart_printf)
+- Delay functions and functions to get runtime (time)
 
-附带测试的 main 程序，以及 Ti Syscfg 配置文件需要一并导入。
+The project includes a test main program, and the Ti Syscfg configuration file needs to be imported along with it.
